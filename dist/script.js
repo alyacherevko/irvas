@@ -14859,7 +14859,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var modals = function modals() {
-  function bindModal(triggerSelector, modalSelector, closeSelector) {
+  var bindModal = function bindModal(triggerSelector, modalSelector, closeSelector) {
     var trigger = document.querySelectorAll(triggerSelector);
     var modal = document.querySelector(modalSelector);
     var close = document.querySelector(closeSelector);
@@ -14883,14 +14883,14 @@ var modals = function modals() {
         document.body.style.overflow = ''; // document.body.classList.remove('modal-open');
       }
     });
-  }
+  };
 
-  function showModalByTime(selector, time) {
+  var showModalByTime = function showModalByTime(selector, time) {
     setTimeout(function () {
       document.querySelector(selector).style.display = "block";
       document.body.style.overflow = 'hidden';
     }, time);
-  }
+  };
 
   bindModal('.popup_engineer_btn', '.popup_engineer', '.popup_engineer .popup_close');
   bindModal('.phone_link', '.popup', '.popup .popup_close');
