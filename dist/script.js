@@ -15457,15 +15457,32 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _slider__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./slider */ "./src/js/slider.js");
 /* harmony import */ var _modules_modals__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/modals */ "./src/js/modules/modals.js");
 /* harmony import */ var _modules_tabs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/tabs */ "./src/js/modules/tabs.js");
+/* harmony import */ var _modules_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/forms */ "./src/js/modules/forms.js");
+/* harmony import */ var _modules_forms__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_modules_forms__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
 window.addEventListener('DOMContentLoaded', function () {
+  "use strict";
+
   Object(_modules_modals__WEBPACK_IMPORTED_MODULE_1__["default"])();
   Object(_modules_tabs__WEBPACK_IMPORTED_MODULE_2__["default"])('.glazing_slider ', '.glazing_block', '.glazing_content', 'active');
-  Object(_modules_tabs__WEBPACK_IMPORTED_MODULE_2__["default"])('.decoration_slider', '.no_click', '.decoration_content > div > div', 'after_click');
-  Object(_modules_tabs__WEBPACK_IMPORTED_MODULE_2__["default"])('.balcon_icons', '.balcon_icons_img', '.big_img > img', 'do_image_more', 'inline-block');
+  Object(_modules_tabs__WEBPACK_IMPORTED_MODULE_2__["default"])('.decoration_slider', '.no_click', '.decoration_content > div > div', 'after_click'); // tabs('.balcon_icons', '.balcon_icons_img', '.big_img > img', 'do_image_more', 'inline-block');
+
+  _modules_forms__WEBPACK_IMPORTED_MODULE_3___default()();
 });
+
+/***/ }),
+
+/***/ "./src/js/modules/forms.js":
+/*!*********************************!*\
+  !*** ./src/js/modules/forms.js ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /Users/alcherevko/Documents/study/irvas/src/js/modules/forms.js: Unexpected token (43:8)\n\n\u001b[0m \u001b[90m 41 | \u001b[39m        })\u001b[0m\n\u001b[0m \u001b[90m 42 | \u001b[39m        \u001b[33m.\u001b[39m\u001b[36mcatch\u001b[39m(() \u001b[33m=>\u001b[39m statusMessage\u001b[33m.\u001b[39mtextContent \u001b[33m=\u001b[39m message\u001b[33m.\u001b[39mfailure)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 43 | \u001b[39m        \u001b[33m.\u001b[39m\u001b[36mfinally\u001b[39m(() \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 44 | \u001b[39m          clearInputs()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 45 | \u001b[39m          setTimeout(() \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 46 | \u001b[39m            statusMessage\u001b[33m.\u001b[39mremove()\u001b[33m;\u001b[39m\u001b[0m\n    at Parser.raise (/Users/alcherevko/Documents/study/irvas/node_modules/@babel/parser/lib/index.js:6975:17)\n    at Parser.unexpected (/Users/alcherevko/Documents/study/irvas/node_modules/@babel/parser/lib/index.js:8368:16)\n    at Parser.parseExprAtom (/Users/alcherevko/Documents/study/irvas/node_modules/@babel/parser/lib/index.js:9627:20)\n    at Parser.parseExprSubscripts (/Users/alcherevko/Documents/study/irvas/node_modules/@babel/parser/lib/index.js:9210:23)\n    at Parser.parseMaybeUnary (/Users/alcherevko/Documents/study/irvas/node_modules/@babel/parser/lib/index.js:9190:21)\n    at Parser.parseExprOps (/Users/alcherevko/Documents/study/irvas/node_modules/@babel/parser/lib/index.js:9056:23)\n    at Parser.parseMaybeConditional (/Users/alcherevko/Documents/study/irvas/node_modules/@babel/parser/lib/index.js:9029:23)\n    at Parser.parseMaybeAssign (/Users/alcherevko/Documents/study/irvas/node_modules/@babel/parser/lib/index.js:8975:21)\n    at Parser.parseExpression (/Users/alcherevko/Documents/study/irvas/node_modules/@babel/parser/lib/index.js:8925:23)\n    at Parser.parseStatementContent (/Users/alcherevko/Documents/study/irvas/node_modules/@babel/parser/lib/index.js:10785:23)");
 
 /***/ }),
 
